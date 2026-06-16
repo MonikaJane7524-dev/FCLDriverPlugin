@@ -22,14 +22,14 @@ android {
         configureEach {
             //应用名
             //app name
-            resValue("string","app_name","Turnip 26.2.0 R6")
+            resValue("string","app_name","Turnip v26.2.0-R6")
             //包名后缀
             //package name Suffix
-            applicationIdSuffix = ".turnip2620r6"
+            applicationIdSuffix = ".turnipv2620-r6"
 
             //驱动在启动器内显示的名称
             //The name displayed by the driver in the launcher
-            manifestPlaceholders["driver"] = "Turnip 26.2.0 R6"
+            manifestPlaceholders["driver"] = "Turnip v26.2.0-R6"
         }
     }
     compileOptions {
