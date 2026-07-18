@@ -12,7 +12,7 @@ android {
         minSdk = 26
         targetSdk = 34
         versionCode = 1
-        versionName = "1.6"
+        versionName = "1.8"
     }
 
     buildTypes {
@@ -22,14 +22,14 @@ android {
         configureEach {
             //应用名
             //app name
-            resValue("string","app_name","Turnip v26.2.0 R8")
+            resValue("string","app_name","Turnip v26.3.0 R1")
             //包名后缀
             //package name Suffix
-            applicationIdSuffix = ".turnipv2620r8"
+            applicationIdSuffix = ".turnipv2630r1"
 
             //驱动在启动器内显示的名称
             //The name displayed by the driver in the launcher
-            manifestPlaceholders["driver"] = "Turnip v26.2.0 R8"
+            manifestPlaceholders["driver"] = "Turnip v26.3.0 R1"
         }
     }
     compileOptions {
